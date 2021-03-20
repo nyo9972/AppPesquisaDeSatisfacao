@@ -1,0 +1,286 @@
+
+body{
+    background-image: url(/img/bg.jpg);
+    margin: 0;
+    
+}
+
+#question{
+    text-align: center;
+    font-size: 4rem;
+    color: whitesmoke;
+    font-family: arial;
+
+}
+
+#container{
+    margin-top:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+
+}
+
+#containerText{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+
+}
+
+#triste{
+    position: relative;
+    right:3rem;
+    width: 15rem;
+    height:15rem;
+
+    }
+
+    #triste:hover{
+        position: relative;
+        width: 15rem;
+        height:15rem;
+        border: solid 6px black;
+        border-radius: 50rem;
+        background-color: black;
+        
+        }
+
+#indiferente{
+    position: relative;
+    right:-1rem;
+    width: 15rem;
+    height:15rem;
+    }
+
+    #indiferente:hover{
+        position: relative;
+        right:-1rem;
+        width: 15rem;
+        height:15rem;
+        border: solid 6px black;
+        border-radius: 50rem;
+        background-color: black;
+        
+        }
+
+#feliz{
+    position: relative;
+    right: -4rem;
+    width: 15rem;
+    height:15rem;
+    }
+    
+    #feliz:hover{
+        width: 15rem;
+        height:15rem;
+        border: solid 6px black;
+        border-radius: 50rem;
+        background-color: black;
+
+        }
+
+
+
+
+#textTriste{
+    font-weight: bold;
+    font-size:2rem;
+    position: relative;
+    right:7.5rem;
+    font-size: 3rem;
+    color: whitesmoke;
+    font-family: arial;
+
+
+}
+
+#textIndiferente{
+    font-weight: bold;
+    font-size:2rem;
+    font-size: 3rem;
+    color: whitesmoke;
+    font-family: arial;
+
+
+}
+
+#textFeliz{
+    font-weight: bold;
+    font-size:2rem;
+    position: relative;
+    left:7rem;
+    font-size: 3rem;
+    color: whitesmoke;
+    font-family: arial;
+
+}
+
+
+
+/*Painel*/
+
+
+
+#bgModal{
+    position:absolute;
+    width:100%;
+    height:103.5%;
+   background-color: rgb(0, 0, 0 , .75);
+   display:flex;
+   align-items: center;
+   justify-content:center;
+   z-index: 0;
+   top: 0;
+   bottom: 0;
+   font-family: arial;
+
+
+
+
+
+}
+
+
+
+#modal-content {
+    background-color: rgb(255, 255, 255);
+    border-radius:5rem;
+    width: 25rem;
+    text-align: center;
+    font-family: arial;
+
+
+
+}
+
+
+#labelPergunta{
+    font-size:1.5rem;
+    display:flex;
+   align-items: center;
+   justify-content:center;
+   font-family: arial;
+
+
+    
+}
+
+#pergunta{
+   border-radius:5rem;
+   font-family: arial;
+
+}
+
+#buttonOk{
+    Background-color:rgb(15, 18, 218);
+    border:none;
+    width:4rem;
+    height:2rem;
+    border-radius:4rem;
+    font-size:1rem;
+    font-weight:bold;
+    color:antiquewhite;
+    font-family: arial;
+
+}
+
+#buttonOk:hover{
+    Background-color:rgb(66, 67, 170);
+    border:none;
+    width:4rem;
+    height:2rem;
+    border-radius:4rem;
+    font-size:1rem;
+    font-weight:bold;
+    color:antiquewhite;
+    font-family: arial;
+
+}
+
+#buttonCancel{
+    Background-color:rgb(15, 18, 218);
+    border:none;
+    width:4rem;
+    height:2rem;
+    border-radius:4rem;
+    font-size:1rem;
+    font-weight:bold;
+    color:antiquewhite;
+    font-family: arial;
+
+}
+
+#buttonCancel:hover{
+    Background-color:rgb(66, 67, 170);
+    border:none;
+    width:4rem;
+    height:2rem;
+    border-radius:4rem;
+    font-size:1rem;
+    font-weight:bold;
+    color:antiquewhite;
+    font-family: arial;
+
+}
+
+#buttonZerar{
+    Background-color:rgb(255, 0, 0);
+    border:none;
+    width:4rem;
+    height:2rem;
+    border-radius:4rem;
+    font-size:1rem;
+    font-weight:bold;
+    color:antiquewhite;
+    margin-right: 0.3rem;
+    font-family: arial;
+}
+
+#buttonZerar:hover{
+    Background-color:rgb(247, 60, 60);
+    border:none;
+    width:4rem;
+    height:2rem;
+    border-radius:4rem;
+    font-size:1rem;
+    font-weight:bold;
+    color:antiquewhite;
+    margin-right: 0.3rem;
+    font-family: arial;
+
+}
+
+#btnModal {
+    
+    position: relative;
+    Background-color:rgb(255, 255, 255);
+    border:none;
+    width:8rem;
+    height:8rem;
+    border-radius:4rem;
+    font-size:2rem;
+    font-weight:bold;
+    color:rgb(0, 0, 0);
+    left:-1rem;
+    z-index: 2;
+}
+
+#pass {
+    
+    position: relative;
+    Background-color:rgb(255, 255, 255);
+    border:none;
+    width:4rem;
+    height:4rem;
+    border-radius:4rem;
+    font-size:1rem;
+    font-weight:bold;
+    color:rgb(0, 0, 0);
+    left:-1rem;
+    z-index: 2;
+}
+
+body.fixed { position: fixed; top: 0; left: 0; }

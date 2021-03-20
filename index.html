@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Totem Pesquisa</title>
+</head>
+<body class="fixed">
+
+
+    <h1 id="question"></h1>
+    
+<div id="container">
+<img onclick="touchPessimo()" id="triste" src="img/ruim.png">
+ <img onclick="touchIndiferente()" id="indiferente" src="img/mediano.png"> 
+ <img onclick="touchOtimo()" id="feliz" src="img/otimo.png">
+</div>
+
+<div id="containerText">
+<h3 id="textTriste" >Péssimo</h3> <h3 id="textIndiferente">Indiferente</h3> <h3 id="textFeliz">Ótimo</h3>
+</div>
+
+
+<div style="visibility: hidden;" id="bgModal">
+
+<div id="modal-content">
+<label id="labelPergunta" for="">Mudar pergunta:</label>
+<input id="pergunta" type="text" >
+
+<h1 id="nota1"> Pessimo: <H1 id="pess">0</H1> </h1 > <h1 id="nota2">Indiferente: <H1 id="ind">0</H1> </h1> <h1 id="nota3">Ótimo: <H1 id="oti">0</H1></h1>
+
+<button onclick="ClearItens()" id="buttonZerar">Zerar</button><button onclick="OkModal()" id="buttonOk">Ok</button> <button onclick="closeModal()" id="buttonCancel">Cancel </button>
+<br><br>
+</div>
+</div>
+
+
+<button style="visibility: hidden;" id="btnModal" onclick="openModal()">Painel  </button><button onclick="passModal()" id="pass">Pass</button>
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
